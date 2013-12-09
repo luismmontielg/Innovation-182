@@ -146,7 +146,7 @@
 	 <bean id="subsetlogDao" class="edu.utah.further.core.data.service.DaoHibernateImpl">
    <constructor-arg ref="sessionFactory"/>
    </bean>
-   <bean id="logDao" class=" edu.utah.further.subsetdb.service.LogsDaoImpl">
+   <bean id="logDao" class="edu.utah.further.subsetdb.service.LogsDaoImpl">
    </bean>
      
    
